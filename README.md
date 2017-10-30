@@ -86,11 +86,11 @@ python setup.py build build_ext --openssl=/usr/local; sudo python setup.py insta
 - Install python modules
 
 ```
-pip install progressbar 
-pip install setuptools
-pip install construct
-pip install pyasn1
-pip install M2Crypto-0.21.1-py2.7-macosx-10.9-intel.egg
+pip2 install progressbar 
+pip2 install setuptools
+pip2 install construct
+pip2 install pyasn1
+pip2 install M2Crypto-0.21.1-py2.7-macosx-10.9-intel.egg
 ```
 - Install M2Crypto for OSX
 
