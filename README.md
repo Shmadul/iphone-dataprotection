@@ -95,7 +95,7 @@ pip install M2Crypto-0.21.1-py2.7-macosx-10.9-intel.egg
 - Install M2Crypto for OSX
 
 ```
-curl -O http://chandlerproject.org/pub/Projects/MeTooCrypto/M2Crypto-0.21.1-py2.7-macosx-10.9-intel.egg
+curl -O https://github.com/Shmadul/iphone-dataprotection/raw/master/dependencies/M2Crypto-0.21.1-py2.7-macosx-10.9-intel.egg
 sudo easy_install M2Crypto-0.21.1-py2.7-macosx-10.9-intel.egg
 ```
 
