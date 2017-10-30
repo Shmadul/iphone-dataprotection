@@ -77,6 +77,7 @@ brew install swig
 
 ```
 git clone https://github.com/mcepl/M2Crypto
+cd M2Crypto
 python setup.py build build_ext --openssl=/usr/local/Cellar/openssl/1.0.2/
 sudo python setup.py install build_ext --openssl=/usr/local/Cellar/openssl/1.0.2
 ```
