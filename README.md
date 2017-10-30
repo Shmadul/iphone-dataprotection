@@ -51,7 +51,7 @@ sudo pip install pyasn1
 
 ```
 sudo mkdir -p /usr/local/bin
-curl -O http://networkpx.googlecode.com/files/ldid $ chmod +x ldid
+curl -O https://web.archive.org/web/20150227183426/http://networkpx.googlecode.com/files/ldid $ chmod +x ldid
 sudo mv ldid /usr/local/bin
 ```
 
