@@ -66,11 +66,15 @@ sudo ln -s /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_all
 - Install OSXFuse from:
 https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.3.8.dmg
 
+- Install MacPorts from:
+https://www.macports.org/install.php
 
 - Install swig
 
 `
-brew install swig
+sudo port install openssl
+sudo port install swig
+sudo port install swig-python
 `
 
 - Install M2Crypto
