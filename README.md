@@ -78,10 +78,9 @@ sudo port install openssl swig swig-python
 - Install M2Crypto
 
 ```
-git clone https://github.com/eventbrite/m2crypto
+git clone https://gitlab.com/m2crypto/m2crypto.git
 cd M2Crypto
-python setup.py build build_ext --openssl=/usr/local/Cellar/openssl/1.0.2/
-sudo python setup.py install build_ext --openssl=/usr/local/Cellar/openssl/1.0.2
+python setup.py build build_ext --openssl=/usr/local; sudo python setup.py install build_ext --openssl=/usr/local
 ```
 
 - Install python modules
